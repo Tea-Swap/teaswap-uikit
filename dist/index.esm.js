@@ -4273,14 +4273,14 @@ var UserBlock$1 = React.memo(UserBlock, function (prevProps, nextProps) {
 var ModalBlockChain = function (_a) {
     var onDismiss = _a.onDismiss;
     return (React.createElement(Modal, { title: "Choose your blockchain", onDismiss: onDismiss },
-        React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () { window.location.href = 'https://app.tea-swap.finance/'; }, style: { justifyContent: "space-between" }, mb: 10 },
+        React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () { window.location.href = 'https://app.tea-swap.finance/'; }, style: { justifyContent: "space-between" }, mb: 10, disabled: true },
             React.createElement(Text, { bold: true, color: "primary", mr: "16px" }, "Binance Smart Chain"),
             React.createElement(Icon$7, { width: "32px", height: "32px" })),
-        React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () { console.log('1'); }, style: { justifyContent: "space-between" }, mb: 10 },
-            React.createElement(Text, { bold: true, color: "primary", mr: "16px" }, "Arbitrum (soon)")),
-        React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () { console.log('1'); }, style: { justifyContent: "space-between" }, mb: 10 },
+        React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () { console.log('1'); }, style: { justifyContent: "space-between" }, mb: 10, disabled: true },
             React.createElement(Text, { bold: true, color: "primary", mr: "16px" }, "RSK (soon)")),
-        React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () { console.log('1'); }, style: { justifyContent: "space-between" }, mb: 10 },
+        React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () { console.log('1'); }, style: { justifyContent: "space-between" }, mb: 10, disabled: true },
+            React.createElement(Text, { bold: true, color: "primary", mr: "16px" }, "Arbitrum (soon)")),
+        React.createElement(Button, { width: "100%", variant: "tertiary", onClick: function () { console.log('1'); }, style: { justifyContent: "space-between" }, mb: 10, disabled: true },
             React.createElement(Text, { bold: true, color: "primary", mr: "16px" }, "Polygon (soon)"))));
 };
 
