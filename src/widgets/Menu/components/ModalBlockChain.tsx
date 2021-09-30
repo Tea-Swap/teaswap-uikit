@@ -29,7 +29,7 @@ const ModalBlockChain: React.FC<ModalBlockChainProps> = ({ onDismiss }) => {
       <Button
         width="100%"
         variant="tertiary"
-        onClick={() => {console.log('1')}}
+        onClick={() => {window.location.href='https://app.rsk.tea-swap.finance/'}}
         style={{ justifyContent: "space-between" }}
         mb={10}
       >
