@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
 import Button from "../../../components/Button/Button";
 import Text from "../../../components/Text/Text";
-import { BSCIcon } from "../icons";
+import { BSCIcon, RSKIcon } from "../icons";
 import { Modal } from "../../Modal";
 
 
@@ -29,14 +29,16 @@ const ModalBlockChain: React.FC<ModalBlockChainProps> = ({ onDismiss }) => {
       <Button
         width="100%"
         variant="tertiary"
-        onClick={() => {console.log('1')}}
+        onClick={() => {window.location.href='https://app.rsk.tea-swap.finance/'}}
         style={{ justifyContent: "space-between" }}
         mb={10}
         disabled={true}
       >
         <Text bold color="primary" mr="16px">
-          RSK (soon)
+          RSK
         </Text>
+        <RSKIcon width="32px" height="32px" />
+
       </Button>
       <Button
         width="100%"
