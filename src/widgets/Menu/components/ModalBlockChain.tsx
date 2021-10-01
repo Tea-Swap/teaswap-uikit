@@ -32,7 +32,6 @@ const ModalBlockChain: React.FC<ModalBlockChainProps> = ({ onDismiss }) => {
         onClick={() => {window.location.href='https://app.rsk.tea-swap.finance/'}}
         style={{ justifyContent: "space-between" }}
         mb={10}
-        disabled={true}
       >
         <Text bold color="primary" mr="16px">
           RSK
